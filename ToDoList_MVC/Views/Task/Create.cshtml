@@ -10,10 +10,12 @@
             <div class="mb-3">
                 <lable asp-for="Title">Title</lable>
                 <input asp-for="Title" type="text"/>
+                <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="mb-3">
                 <lable asp-for="Description">Description</lable>
                 <input asp-for="Description"/>
+                <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="mb-3">
                 <input asp-for="DueDate" type="date"/>
@@ -25,3 +27,10 @@
             <a asp-controller="Task" asp-action="Index" class="btn btn-secondary" style="width:150px"> Back to List</a>
         </div>
     </form>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

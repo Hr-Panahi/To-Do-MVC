@@ -21,9 +21,26 @@ namespace ToDoList_MVC.Controllers
             return View(objTaskList);
         }
 
+        //GET
         public IActionResult Create()
         {
             return View();
+        }
+
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(tblTask obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.tblTasks.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(obj);
+
         }
     }
 }
