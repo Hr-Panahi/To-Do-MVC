@@ -1,0 +1,83 @@
+﻿@model IEnumerable<tblTask>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container pt-1"> 
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th class="col-3">Title</th>
+                <th class="col-5">Description</th>
+                <th class="col-1">Due Date</th>
+                <th class="col-1">Due Time</th>
+                <th class="col-1">Status</th>
+                <th class="col-1">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.Title</td>
+                    <td>@obj.Description</td>
+                    <td>@obj.DueDate.ToShortDateString()</td>
+                    <td>@obj.DueTime.ToString("hh\\:mm")</td>
+                    <td>@obj.Status</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                         <!-- Edit button -->
+                         <form asp-page-handler="Edit" asp-route-id="@obj.Id">
+                           <button type="submit" class="btn btn-sm btn-primary">Edit</button>
+                           <button type="button" class="btn btn-sm btn-primary" onclick="editTask(@obj.Id)">Edit</button>
+                         </form>
+
+                        <!-- Delete button -->
+                        <form asp-page-handler="Delete" asp-route-id="@obj.Id">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                        <div/>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="container pt-2">
+        <div class="row pt-4">
+            <div class="col-6">
+                <a asp-controller="Task" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> &nbsp; Add new task
+
+                    </a>
+            </div>
+        </div>
+    </div>
+@*     <form method="post">
+        <div class="border p-3 mt-4">
+            <div class="row pb-2">
+                <h2 class="text-primary pl-3">Add Task</h2>
+                <hr />
+            </div>
+            <input type="hidden" asp-for="@Model.tblTask.Id" />
+
+            <div class="mb-3">
+                <lable asp-for="@Model.NewToDoTask.Title">Title</lable>
+                <input asp-for="@Model.NewToDoTask.Title" type="text" name="NewToDoTask.Title" />
+                <span asp-validation-for="@Model.NewToDoTask.Title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <lable asp-for="@Model.NewToDoTask.Description">Description</lable>
+                <input asp-for="@Model.NewToDoTask.Description" type="text" name="NewToDoTask.Description" />
+                <span asp-validation-for="@Model.NewToDoTask.Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input asp-for="@Model.NewToDoTask.DueDate" type="date" name="NewToDoTask.DueDate" />
+                <lable asp-for="@Model.NewToDoTask.DueDate"></lable>
+                <input asp-for="@Model.NewToDoTask.DueTime" type="time" name="NewToDoTask.DueTime" />
+                <lable asp-for="@Model.NewToDoTask.DueTime"></lable>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:150px;">Add</button>
+        </div>
+    </form> *@
+</div>

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ToDoList_MVC.bundle.scp.css"
     },
     {
+      "Id": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\wwwroot\\css\\BootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\BootswatchTheme.css"
+    },
+    {
       "Id": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

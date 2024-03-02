@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SP13AI1R5rgPS6ygcbWiO9fkSHd1Ys8EtIhofG0SNVU=",
+  "Hash": "zcCjJRRwuaKdEtB4EwqviKMU8cUnTjE/nVU8OBhDZD8=",
   "Source": "ToDoList_MVC",
   "BasePath": "_content/ToDoList_MVC",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList_MVC.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\wwwroot\\css\\BootswatchTheme.css",
+      "SourceId": "ToDoList_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\wwwroot\\",
+      "BasePath": "_content/ToDoList_MVC",
+      "RelativePath": "css/BootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\BootswatchTheme.css"
     },
     {
       "Identity": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\wwwroot\\css\\site.css",

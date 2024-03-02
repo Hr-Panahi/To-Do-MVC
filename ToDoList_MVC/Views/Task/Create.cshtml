@@ -1,0 +1,27 @@
+﻿@model tblTask
+    <form method="post">
+        <div class="border p-3 mt-4">
+            <div class="row pb-2">
+                <h2 class="text-primary pl-3">Add Task</h2>
+                <hr />
+            </div>
+            <input type="hidden" asp-for=Id />
+
+            <div class="mb-3">
+                <lable asp-for="Title">Title</lable>
+                <input asp-for="Title" type="text"/>
+            </div>
+            <div class="mb-3">
+                <lable asp-for="Description">Description</lable>
+                <input asp-for="Description"/>
+            </div>
+            <div class="mb-3">
+                <input asp-for="DueDate" type="date"/>
+                <lable asp-for="DueDate"></lable>
+                <input asp-for="DueTime" type="time"/>
+                <lable asp-for="DueTime"></lable>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:150px;">Add</button>
+            <a asp-controller="Task" asp-action="Index" class="btn btn-secondary" style="width:150px"> Back to List</a>
+        </div>
+    </form>
