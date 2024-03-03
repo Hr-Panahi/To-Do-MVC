@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Task\\Create.cshtml",
-              "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Create.cshtml",
-              "RelativeToolTip": "Views\\Task\\Create.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T17:43:17.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T17:03:01.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Task\\Index.cshtml",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Index.cshtml",
               "RelativeToolTip": "Views\\Task\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAABTAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-02T17:01:52.783Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Delete.cshtml",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Task\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T09:53:37.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Edit.cshtml",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Task\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T09:50:10.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Create.cshtml",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Create.cshtml",
+              "RelativeToolTip": "Views\\Task\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-02T17:43:17.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TaskController.cs",
               "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAiwEUAAAApAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T16:57:56.181Z",
               "EditorCaption": ""

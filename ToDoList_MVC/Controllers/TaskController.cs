@@ -73,7 +73,39 @@ namespace ToDoList_MVC.Controllers
             }
 
             return View(obj);
+        }
 
+
+        //GET
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var taskFromDb = _db.tblTasks.Find(id);
+
+            if (taskFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(taskFromDb);
+        }
+
+        //POST
+        [HttpPost,ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var obj = _db.tblTasks.Find(id);
+            if(obj == null)
+            {
+                return NotFound();
+            }
+            _db.tblTasks.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }

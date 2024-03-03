@@ -5,15 +5,14 @@
                 <h2 class="text-primary pl-3">Add Task</h2>
                 <hr />
             </div>
-            <input type="hidden" asp-for=Id />
 
             <div class="mb-3">
-                <lable asp-for="Title">Title</lable>
+                <lable asp-for="Title"></lable>
                 <input asp-for="Title" type="text"/>
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <lable asp-for="Description">Description</lable>
+                <lable asp-for="Description"></lable>
                 <input asp-for="Description"/>
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>

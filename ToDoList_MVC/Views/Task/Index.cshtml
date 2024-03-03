@@ -30,9 +30,8 @@
                          <!-- Edit button -->
                             <a asp-controller="Task" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i></a>
                         <!-- Delete button -->
-                            <form asp-page-handler="Delete" asp-route-id="@obj.Id">
-                                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                            </form>
+                            <a asp-controller="Task" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-trash"></i></a>
+
                         <div/>
                     </td>
                 </tr>
