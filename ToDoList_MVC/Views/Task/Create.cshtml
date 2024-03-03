@@ -17,9 +17,9 @@
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <input asp-for="DueDate" type="date"/>
+            <input asp-for="DueDate" type="date" id="dueDateInput" />
                 <lable asp-for="DueDate"></lable>
-                <input asp-for="DueTime" type="time"/>
+            <input asp-for="DueTime" type="time" value="12:00" />
                 <lable asp-for="DueTime"></lable>
             </div>
             <button type="submit" class="btn btn-primary" style="width:150px;">Add</button>
@@ -28,8 +28,15 @@
     </form>
 
 
-@section Scripts{
-    @{
-        <partial name="_ValidationScriptsPartial" />
-    }
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        // Get today's date in YYYY-MM-DD format
+        var today = new Date().toISOString().slice(0, 10);
+        
+        // Set the value of the input field to today's date
+        document.getElementById("dueDateInput").value = today;
+    </script>
 }
+

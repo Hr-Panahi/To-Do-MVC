@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using ToDoList_MVC.Data;
 using ToDoList_MVC.Models;
@@ -106,6 +107,32 @@ namespace ToDoList_MVC.Controllers
             }
             _db.tblTasks.Remove(obj);
             _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult UpdateStatus(int id, bool status)
+        {
+            var task = _db.tblTasks.Find(id);
+            if (task == null)
+            {
+                return NotFound();
+            }
+            if (task.Status == false)
+            {
+                task.Status = true;
+                _db.SaveChanges();
+            }
+            else if (task.Status == true)
+            {
+                task.Status = false;
+                _db.SaveChanges();
+            }
+            //task.Status = !status; // Toggle the status
+
+            //_db.SaveChanges();
+
+            // Redirect to the Index action to refresh the page
             return RedirectToAction("Index");
         }
 

@@ -24,7 +24,18 @@
                     <td>@obj.Description</td>
                     <td>@obj.DueDate.ToShortDateString()</td>
                     <td>@obj.DueTime.ToString("hh\\:mm")</td>
-                    <td>@obj.Status</td>
+
+                    <td>
+                        <form method="post" asp-action="UpdateStatus" class="status-form">
+                            <input type="hidden" name="id" value="@obj.Id" />
+                            <input type="hidden" name="status" value="@obj.Status" />
+                            <div class="form-check form-switch">
+                                <input class="form-check-input status-checkbox" type="checkbox" id="flexSwitchCheckDefault-@obj.Id" checked="@obj.Status">
+                                <label class="form-check-label" for="flexSwitchCheckDefault-@obj.Id"></label>
+                            </div>
+                        </form>
+                    </td>
+
                     <td>
                         <div class="w-75 btn-group" role="group">
                          <!-- Edit button -->
@@ -34,7 +45,6 @@
  *@
                             <!-- Delete button -->
                           <a asp-controller="Task" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-trash"></i></a>
-
                         <div/>
                     </td>
                 </tr>
@@ -53,5 +63,13 @@
     </div>
 </div>
 
-
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('.status-checkbox').change(function () {
+                $(this).parents('form').submit();
+            });
+        });
+    </script>
+}
 
