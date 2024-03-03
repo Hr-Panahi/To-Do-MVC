@@ -42,5 +42,38 @@ namespace ToDoList_MVC.Controllers
             return View(obj);
 
         }
+
+        //GET
+        public IActionResult Edit(int? id)
+        {
+            if(id ==null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var taskFromDb = _db.tblTasks.Find(id);
+
+            if (taskFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(taskFromDb);
+        }
+
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(tblTask obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.tblTasks.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(obj);
+
+        }
     }
 }

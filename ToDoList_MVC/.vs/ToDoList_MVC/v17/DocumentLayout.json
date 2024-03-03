@@ -38,8 +38,7 @@
               "RelativeToolTip": "Views\\Task\\Create.cshtml",
               "ViewState": "AQIAAAsAAAAAAAAAAAAqwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T17:43:17.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T17:43:17.242Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T17:03:01.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T17:03:01.566Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "Views\\Task\\Index.cshtml",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Index.cshtml",
               "RelativeToolTip": "Views\\Task\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAA8AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-02T17:01:52.783Z",
               "EditorCaption": ""
@@ -75,7 +73,7 @@
               "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCQAAAAmAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwEUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T16:57:56.181Z",
               "EditorCaption": ""
