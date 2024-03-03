@@ -8,13 +8,15 @@
             <input type="hidden" asp-for=Id />
 
             <div class="mb-3">
-                <lable asp-for="Title">Title</lable>
-                <input asp-for="Title" type="text"/>
+
+                <label class="col-form-label m2-4" for="inputDefault" asp-for="Title">Title</label>
+                <input type="text" class="form-control" id="inputDefault" spellcheck="false" data-ms-editor="true">
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <lable asp-for="Description">Description</lable>
-                <input asp-for="Description"/>
+            <label class="col-form-label m2-4" for="inputDefault" asp-for="Description">Description</label>
+            <input type="text" class="form-control" id="inputDefault" spellcheck="false" data-ms-editor="true">
+
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="mb-3">

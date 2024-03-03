@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using ToDoList_MVC.Data;
 using ToDoList_MVC.Models;
 
@@ -107,5 +108,39 @@ namespace ToDoList_MVC.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        #region Edit PopUp
+        //[HttpGet]
+        //public IActionResult EditPopUp(int? id)
+        //{
+        //    if (id == null || id == 0)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var taskFromDb = _db.tblTasks.Find(id);
+
+        //    if (taskFromDb == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return PartialView("_EditTask", taskFromDb);
+        //}
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult EditPopUp(tblTask obj)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _db.tblTasks.Update(obj);
+        //        _db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+
+        //    // Model state is not valid, return the same partial view with validation errors
+        //    return PartialView("_EditTask", obj);
+        //}
+        #endregion EditPopUp
     }
 }

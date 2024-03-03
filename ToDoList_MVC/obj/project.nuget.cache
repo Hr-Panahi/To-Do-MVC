@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "toorXB8PGG/om62SVkvpmR51Kn7ZgbMA+374uKudr1tqE6Yo/oYr9sj16lLSfvJNlrOcnC0UIjVN0JRIuta8xg==",
+  "dgSpecHash": "ICP4RCbDB1VswdUjs853wCv0m+fHtpodJo30XJh9N9GRpmjtL4N5/j1VAWCJpbwTaRX7CvhsX4X5Ok2+1/7+/g==",
   "success": true,
   "projectFilePath": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\ToDoList_MVC.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",

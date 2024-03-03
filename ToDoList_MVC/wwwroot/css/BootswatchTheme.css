@@ -2420,7 +2420,7 @@ progress {
     background-color: var(--bs-body-bg);
     border-color: #f4aa90;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(233, 84, 32, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(255, 165, 0, 0.25); /* Orange shadow */
 }
 
 .form-control::-webkit-date-and-time-value {

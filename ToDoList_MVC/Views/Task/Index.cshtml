@@ -29,8 +29,11 @@
                         <div class="w-75 btn-group" role="group">
                          <!-- Edit button -->
                             <a asp-controller="Task" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i></a>
-                        <!-- Delete button -->
-                            <a asp-controller="Task" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-trash"></i></a>
+
+@*                             <button type="button" class="btn btn-primary edit-task-btn" data-task-id="@obj.Id"><i class="bi bi-pencil-square"></i></button>
+ *@
+                            <!-- Delete button -->
+                          <a asp-controller="Task" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i class="bi bi-trash"></i></a>
 
                         <div/>
                     </td>
@@ -48,31 +51,7 @@
             </div>
         </div>
     </div>
-@*     <form method="post">
-        <div class="border p-3 mt-4">
-            <div class="row pb-2">
-                <h2 class="text-primary pl-3">Add Task</h2>
-                <hr />
-            </div>
-            <input type="hidden" asp-for="@Model.tblTask.Id" />
-
-            <div class="mb-3">
-                <lable asp-for="@Model.NewToDoTask.Title">Title</lable>
-                <input asp-for="@Model.NewToDoTask.Title" type="text" name="NewToDoTask.Title" />
-                <span asp-validation-for="@Model.NewToDoTask.Title" class="text-danger"></span>
-            </div>
-            <div class="mb-3">
-                <lable asp-for="@Model.NewToDoTask.Description">Description</lable>
-                <input asp-for="@Model.NewToDoTask.Description" type="text" name="NewToDoTask.Description" />
-                <span asp-validation-for="@Model.NewToDoTask.Description" class="text-danger"></span>
-            </div>
-            <div class="mb-3">
-                <input asp-for="@Model.NewToDoTask.DueDate" type="date" name="NewToDoTask.DueDate" />
-                <lable asp-for="@Model.NewToDoTask.DueDate"></lable>
-                <input asp-for="@Model.NewToDoTask.DueTime" type="time" name="NewToDoTask.DueTime" />
-                <lable asp-for="@Model.NewToDoTask.DueTime"></lable>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:150px;">Add</button>
-        </div>
-    </form> *@
 </div>
+
+
+
