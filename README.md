@@ -17,7 +17,7 @@ Simple CRUD operations are used in developing this app:
 
 ## Upcoming Features
 
-Here are some exciting features we plan to add to our To-Do List application in the future:
+Here are some exciting features I plan to add to my To-Do List application in the future:
 
 - **Task prioritization**
 - **Categories and tags for tasks**
