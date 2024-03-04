@@ -23,6 +23,7 @@ namespace ToDoList_MVC.Controllers
             return View(objTaskList);
         }
 
+        #region Create
         //GET
         public IActionResult Create()
         {
@@ -44,7 +45,9 @@ namespace ToDoList_MVC.Controllers
             return View(obj);
 
         }
+        #endregion Create
 
+        #region Edit
         //GET
         public IActionResult Edit(int? id)
         {
@@ -76,8 +79,9 @@ namespace ToDoList_MVC.Controllers
 
             return View(obj);
         }
+        #endregion Edit
 
-
+        #region Delete
         //GET
         public IActionResult Delete(int? id)
         {
@@ -109,7 +113,9 @@ namespace ToDoList_MVC.Controllers
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
+        #endregion Delete
 
+        #region Update Status
         [HttpPost]
         public IActionResult UpdateStatus(int id, bool status)
         {
@@ -135,6 +141,7 @@ namespace ToDoList_MVC.Controllers
             // Redirect to the Index action to refresh the page
             return RedirectToAction("Index");
         }
+        #endregion Update Status
 
         #region Edit PopUp
         //[HttpGet]

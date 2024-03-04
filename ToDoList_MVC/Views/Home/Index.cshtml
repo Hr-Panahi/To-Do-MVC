@@ -3,6 +3,77 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <h1 class="display-4">Welcome to my To-Do List</h1>
+    <p><a href="https://github.com/Hr-Panahi/To-Do-MVC">View on GitHub</a></p>
+
+    <hr />
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">Home</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" href="#how-to-use" aria-selected="false" role="tab">How To Use</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" href="#upcoming-features" aria-selected="false" role="tab">Upcoming Features</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade active show" id="home" role="tabpanel">
+            <div>
+                <br/>
+                <h3>This is a To-Do List App developed with Asp.NET Core MVC.</h3>
+                <p>Right now, it is in its early stages and very simple in architecture. I developed it to practice fundamentals of Asp.NET and SQL Server.</p>
+                <p>Simple CRUD operations are used in developing this app:</p>
+                <ul>
+                    <li>Creating (Adding Tasks)</li>
+                    <li>Reading (Showing Tasks)</li>
+                    <li>Updating (Editing Tasks)</li>
+                    <li>Deleting (Removing Tasks)</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="tab-pane fade" id="how-to-use" role="tabpanel">
+            <br/>
+            <h2>How to Use</h2>
+            <p>To get started:</p>
+            <ol>
+                <li>Click on "Task" to navigate to the Task page.</li>
+                <li>Once on the Task page, you can:</li>
+                <ul>
+                    <li>Click on "Add new task" to create a new task.</li>
+                    <li>Fill in the title, description, due date, and due time for your task.</li>
+                    <li>Click "Save" to add the task to your list.</li>
+                    <li>You can edit or delete tasks using the corresponding buttons in the list.</li>
+                    <li>Toggle the status of a task by clicking the checkbox.</li>
+                </ul>
+            </ol>
+        </div>
+        <div class="tab-pane fade" id="upcoming-features" role="tabpanel">
+            <br/>
+            <h2>Upcoming Features</h2>
+            <p>Here are some exciting features we plan to add to our To-Do List application in the future:</p>
+            <ul>
+                <li>Task prioritization</li>
+                <li>Categories and tags for tasks</li>
+                <li>Reminders and notifications</li>
+                <li>Collaboration and sharing options</li>
+            </ul>
+        </div>
+    </div>
+    <style>
+        .tab-content {
+            text-align: left; /* Align the text content within the tabs to the left */
+        }
+
+        /* Adjust padding or margin as needed */
+        .tab-pane {
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+
+
