@@ -6,23 +6,20 @@
                 <hr />
             </div>
             <input type="hidden" asp-for=Id />
-
             <div class="mb-3">
-
                 <label class="col-form-label m2-4" for="inputDefault" asp-for="Title">Title</label>
-                <input type="text" class="form-control" id="inputDefault" spellcheck="false" data-ms-editor="true">
+                <input asp-for="Title" type="text" class="form-control" id="inputDefault" spellcheck="false" data-ms-editor="true">
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="mb-3">
-            <label class="col-form-label m2-4" for="inputDefault" asp-for="Description">Description</label>
-            <input type="text" class="form-control" id="inputDefault" spellcheck="false" data-ms-editor="true">
-
+                <label class="col-form-label m2-4" for="inputDefault" asp-for="Description">Description</label>
+                <input asp-for="Description" type="text" class="form-control" id="inputDefault" spellcheck="false" data-ms-editor="true">
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="mb-3">
                 <input asp-for="DueDate" type="date"/>
                 <lable asp-for="DueDate"></lable>
-            <input asp-for="DueTime" type="time"/>
+                <input asp-for="DueTime" type="time"/>
                 <lable asp-for="DueTime"></lable>
             </div>
             <button type="submit" class="btn btn-primary" style="width:150px;">Update</button>

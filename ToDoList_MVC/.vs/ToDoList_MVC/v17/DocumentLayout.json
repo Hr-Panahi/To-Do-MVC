@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|e:\\asp.net projects\\to-do-mvc\\todolist_mvc\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB809ECF-D258-4E82-9B5F-80A7EBF56743}|ToDoList_MVC.csproj|solutionrelative:views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T10:19:17.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Task\\Edit.cshtml",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-MVC\\ToDoList_MVC\\Views\\Task\\Edit.cshtml",
               "RelativeToolTip": "Views\\Task\\Edit.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T10:12:58.047Z",
               "EditorCaption": ""
