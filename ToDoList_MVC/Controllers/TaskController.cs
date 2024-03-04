@@ -131,11 +131,15 @@ namespace ToDoList_MVC.Controllers
             {
                 task.Status = true;
                 _db.SaveChanges();
+                TempData["successCreate"] = "Status Updated!";
+
             }
             else if (task.Status == true)
             {
                 task.Status = false;
                 _db.SaveChanges();
+                TempData["successUpdate"] = "Status Updated!";
+
             }
             //task.Status = !status; // Toggle the status
 

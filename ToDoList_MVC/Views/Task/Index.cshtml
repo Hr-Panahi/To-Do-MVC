@@ -8,12 +8,12 @@
     <table class="table table-bordered table-striped" style="width:100%">
         <thead>
             <tr>
-                <th class="col-3">Title</th>
+                <th class="col-3 align-middle">Title</th>
                 <th class="col-5">Description</th>
-                <th class="col-1">Due Date</th>
-                <th class="col-1">Due Time</th>
-                <th class="col-1">Status</th>
-                <th class="col-1">Actions</th>
+                <th class="col-1 text-center">Due Date</th>
+                <th class="col-1 text-center">Due Time</th>
+                <th class="col-1 text-center">Status</th>
+                <th class="col-1 text-center">Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -21,18 +21,21 @@
             @foreach (var obj in Model)
             {
                 <tr>
-                    <td>@obj.Title</td>
-                    <td>@obj.Description</td>
-                    <td>@obj.DueDate.ToShortDateString()</td>
-                    <td>@obj.DueTime.ToString("hh\\:mm")</td>
+                    <td class="align-middle">@obj.Title</td>
+                    <td class ="align-middle">@obj.Description</td>
+                    <td class="text-center align-middle">@obj.DueDate.ToShortDateString()</td>
+                    <td class="text-center align-middle">@obj.DueTime.ToString("hh\\:mm")</td>
 
-                    <td>
+                    <td class="text-center align-middle">
                         <form method="post" asp-action="UpdateStatus" class="status-form">
                             <input type="hidden" name="id" value="@obj.Id" />
                             <input type="hidden" name="status" value="@obj.Status" />
+                            <div class="d-flex justify-content-center">
+
                             <div class="form-check form-switch">
                                 <input class="form-check-input status-checkbox" type="checkbox" id="flexSwitchCheckDefault-@obj.Id" checked="@obj.Status">
                                 <label class="form-check-label" for="flexSwitchCheckDefault-@obj.Id"></label>
+                            </div>
                             </div>
                         </form>
                     </td>
