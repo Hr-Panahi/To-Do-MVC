@@ -39,6 +39,7 @@ namespace ToDoList_MVC.Controllers
             {
                 _db.tblTasks.Add(obj);
                 _db.SaveChanges();
+                TempData["successCreate"] = "Task added Successfully!";
                 return RedirectToAction("Index");
             }
 
@@ -74,6 +75,7 @@ namespace ToDoList_MVC.Controllers
             {
                 _db.tblTasks.Update(obj);
                 _db.SaveChanges();
+                TempData["successEdit"] = "Task editted Successfully!";
                 return RedirectToAction("Index");
             }
 
@@ -111,6 +113,7 @@ namespace ToDoList_MVC.Controllers
             }
             _db.tblTasks.Remove(obj);
             _db.SaveChanges();
+            TempData["successDelete"] = "Task deleted successfully!";
             return RedirectToAction("Index");
         }
         #endregion Delete
